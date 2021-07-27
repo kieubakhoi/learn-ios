@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		18A145CF26B0696000C4CB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A145CE26B0696000C4CB94 /* AppDelegate.swift */; };
 		18A145D126B0696000C4CB94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A145D026B0696000C4CB94 /* SceneDelegate.swift */; };
-		18A145D326B0696000C4CB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A145D226B0696000C4CB94 /* ViewController.swift */; };
-		18A145D626B0696000C4CB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A145D426B0696000C4CB94 /* Main.storyboard */; };
 		18A145D826B0696200C4CB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A145D726B0696200C4CB94 /* Assets.xcassets */; };
 		18A145DB26B0696200C4CB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A145D926B0696200C4CB94 /* LaunchScreen.storyboard */; };
 		18A145E626B0696200C4CB94 /* demo_ios_day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A145E526B0696200C4CB94 /* demo_ios_day1Tests.swift */; };
 		18A145F126B0696200C4CB94 /* demo_ios_day1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A145F026B0696200C4CB94 /* demo_ios_day1UITests.swift */; };
+		18A1460326B06E3700C4CB94 /* HomewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1460126B06E3700C4CB94 /* HomewViewController.swift */; };
+		18A1460426B06E3700C4CB94 /* HomewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A1460226B06E3700C4CB94 /* HomewViewController.xib */; };
+		18D2251B26B0A30500074828 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2251926B0A30500074828 /* TouchViewController.swift */; };
+		18D2251C26B0A30500074828 /* TouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D2251A26B0A30500074828 /* TouchViewController.xib */; };
+		18D2251F26B0A71C00074828 /* BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2251D26B0A71C00074828 /* BallViewController.swift */; };
+		18D2252026B0A71C00074828 /* BallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D2251E26B0A71C00074828 /* BallViewController.xib */; };
+		18D2252226B0A92C00074828 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2252126B0A92C00074828 /* LineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 		18A145CB26B0696000C4CB94 /* demo-ios-day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-ios-day1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A145CE26B0696000C4CB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A145D026B0696000C4CB94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18A145D226B0696000C4CB94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18A145D526B0696000C4CB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A145D726B0696200C4CB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A145DA26B0696200C4CB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A145DC26B0696200C4CB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		18A145EC26B0696200C4CB94 /* demo-ios-day1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-ios-day1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A145F026B0696200C4CB94 /* demo_ios_day1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_ios_day1UITests.swift; sourceTree = "<group>"; };
 		18A145F226B0696200C4CB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A1460126B06E3700C4CB94 /* HomewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomewViewController.swift; sourceTree = "<group>"; };
+		18A1460226B06E3700C4CB94 /* HomewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomewViewController.xib; sourceTree = "<group>"; };
+		18D2251926B0A30500074828 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		18D2251A26B0A30500074828 /* TouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouchViewController.xib; sourceTree = "<group>"; };
+		18D2251D26B0A71C00074828 /* BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallViewController.swift; sourceTree = "<group>"; };
+		18D2251E26B0A71C00074828 /* BallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BallViewController.xib; sourceTree = "<group>"; };
+		18D2252126B0A92C00074828 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,8 @@
 			children = (
 				18A145CE26B0696000C4CB94 /* AppDelegate.swift */,
 				18A145D026B0696000C4CB94 /* SceneDelegate.swift */,
-				18A145D226B0696000C4CB94 /* ViewController.swift */,
-				18A145D426B0696000C4CB94 /* Main.storyboard */,
+				18D2251626B0A2B500074828 /* TouchEvent */,
+				18A145FE26B06AFE00C4CB94 /* Home */,
 				18A145D726B0696200C4CB94 /* Assets.xcassets */,
 				18A145D926B0696200C4CB94 /* LaunchScreen.storyboard */,
 				18A145DC26B0696200C4CB94 /* Info.plist */,
@@ -126,6 +136,27 @@
 				18A145F226B0696200C4CB94 /* Info.plist */,
 			);
 			path = "demo-ios-day1UITests";
+			sourceTree = "<group>";
+		};
+		18A145FE26B06AFE00C4CB94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18A1460126B06E3700C4CB94 /* HomewViewController.swift */,
+				18A1460226B06E3700C4CB94 /* HomewViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18D2251626B0A2B500074828 /* TouchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				18D2251926B0A30500074828 /* TouchViewController.swift */,
+				18D2251A26B0A30500074828 /* TouchViewController.xib */,
+				18D2251D26B0A71C00074828 /* BallViewController.swift */,
+				18D2251E26B0A71C00074828 /* BallViewController.xib */,
+				18D2252126B0A92C00074828 /* LineViewController.swift */,
+			);
+			path = TouchEvent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +264,9 @@
 			files = (
 				18A145DB26B0696200C4CB94 /* LaunchScreen.storyboard in Resources */,
 				18A145D826B0696200C4CB94 /* Assets.xcassets in Resources */,
-				18A145D626B0696000C4CB94 /* Main.storyboard in Resources */,
+				18D2251C26B0A30500074828 /* TouchViewController.xib in Resources */,
+				18A1460426B06E3700C4CB94 /* HomewViewController.xib in Resources */,
+				18D2252026B0A71C00074828 /* BallViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A145D326B0696000C4CB94 /* ViewController.swift in Sources */,
 				18A145CF26B0696000C4CB94 /* AppDelegate.swift in Sources */,
+				18A1460326B06E3700C4CB94 /* HomewViewController.swift in Sources */,
+				18D2252226B0A92C00074828 /* LineViewController.swift in Sources */,
+				18D2251B26B0A30500074828 /* TouchViewController.swift in Sources */,
 				18A145D126B0696000C4CB94 /* SceneDelegate.swift in Sources */,
+				18D2251F26B0A71C00074828 /* BallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18A145D426B0696000C4CB94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A145D526B0696000C4CB94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18A145D926B0696200C4CB94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
